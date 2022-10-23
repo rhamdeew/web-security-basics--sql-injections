@@ -1,0 +1,24 @@
+<div style="width:100%; min-width:200px;margin:auto;padding: 1em;margin-top:20px;">
+  <%= @debug %>
+</div>
+<div style="width:100%; min-width:200px;margin:auto;padding: 1em;margin-top:20px;">
+  <%= @raw_sql %>
+</div>
+<div style="width:100%; min-width:200px;margin:auto;padding: 1em;margin-top:20px;">
+  <%= @result %>
+</div>
+<div style="width:50%; min-width:200px;margin:auto;padding: 1em;margin-top:20px;">
+  <%= form_with url: '/login', data: { turbo: "false" } do |form| %>
+    <p>
+    <%= form.label :username, "Username" %>
+    <%= form.text_field :username %>
+    </p>
+    <p>
+    <%= form.label :password, "Password" %>
+    <%= form.text_field :password%>
+    </p>
+    <p>
+    <%= form.submit "Sign in" %>
+    </p>
+  <% end %>
+</div>

@@ -1,0 +1,7 @@
+Admin.create({"name"=>"Rail", "username"=>"admin", "password"=>"ee10c315eba2c75b403ea99136f5b48d"})
+Admin.create({"name"=>"Feodor", "username"=>"feo", "password"=>"a4757d7419ff3b48e92e90596f0e7548"})
+Admin.create({"name"=>"John", "username"=>"johny", "password"=>"2e57b9077d6927d0ce3a42f88aa9b200"})
+Admin.create({"name"=>"George", "username"=>"gg", "password"=>"45b97e9185aee877f51c87aef04fecbc"})
+Admin.create({"name"=>"Emma", "username"=>"mm", "password"=>"b5c0b187fe309af0f4d35982fd961d7e"})
+Admin.create({"name"=>"Tommo", "username"=>"tommo", "password"=>"febea90434591c406084520240082513"})
+Admin.create({"name"=>"Vinnie", "username"=>"vinnie", "password"=>"387dafaaa4d490f5584df7020cc5a3df"})
